@@ -48,24 +48,24 @@ echo form_open(base_url('backend/tambah_satker'), 'class="form-horizontal"');;
     <tr>
         <td rowspan="2"> MIPA</td>
         <td> Ekonomi (pilihan)</td>
-        <td> <input type="checkbox" name="check_eko"></td>
+        <td> <input type="checkbox" value="1" name="check_eko"></td>
         <td><textarea style="width: 500px" name="alasan_eko" class="form-control"></textarea></td>
     </tr>
     <tr>
         <td> Geografi (pilihan)</td>
-        <td> <input type="checkbox" name="check_geo"></td>
+        <td> <input type="checkbox" value="1" name="check_geo"></td>
         <td><textarea style="width: 500px" name="alasan_geo" class="form-control"></textarea></td>
     </tr>
 
     <tr>
         <td rowspan="2"> IPS</td>
         <td> Biologi (pilihan)</td>
-        <td> <input type="checkbox" name="check_bio"></td>
+        <td> <input type="checkbox" value="1" name="check_bio"></td>
         <td><textarea style="width: 500px" name="alasan_bio" class="form-control"></textarea></td>
     </tr>
     <tr>
         <td> Fisika (pilihan)</td>
-        <td> <input type="checkbox" name="check_fis"></td>
+        <td> <input type="checkbox" value="1" name="check_fis"></td>
         <td><textarea style="width: 500px" name="alasan_fis" class="form-control"></textarea></td>
     </tr>
 </table>

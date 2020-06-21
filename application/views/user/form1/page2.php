@@ -59,7 +59,7 @@ E.  KETERANGAN ORANG TUA KANDUNG :
 	<div class="form-group">
 		<label class="col-md-12 control-label">27. Pendidikan terakhir<span style="color: red">*</span></label>
 		<div class="col-md-12">
-			<input type="text" name="pendidikan_ta" class="form-control"  required>
+			<input type="text" name="pendidikan_ta_a" class="form-control"  required>
 		</div>
 	</div>
 
@@ -97,7 +97,7 @@ E.  KETERANGAN ORANG TUA KANDUNG :
 	<div class="form-group">
 		<label class="col-md-12 control-label">35. Pendidikan terakhir<span style="color: red">*</span></label>
 		<div class="col-md-12">
-			<input type="text" name="pendidikan_ti" class="form-control"  required>
+			<input type="text" name="pendidikan_ta_i" class="form-control"  required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -172,7 +172,7 @@ E.  KETERANGAN ORANG TUA KANDUNG :
 	<div class="form-group">
 		<label class="col-md-12 control-label">45. Hubungan keluarga dengan siswa<span style="color: red">*</span></label>
 		<div class="col-md-12">
-			<input type="text" name="hubungan_w_p" class="form-control"  required>
+			<input type="text" name="hubungan_w_l" class="form-control"  required>
 		</div>
 	</div>
 

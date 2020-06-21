@@ -77,7 +77,7 @@ echo form_open(base_url('backend/tambah_satker'), 'class="form-horizontal"');;
 	<div class="form-group">
 		<label class="col-md-12 control-label">8. Jumlah Saudara Kandung<span style="color: red">*</span></label>
 		<div class="col-md-12">
-			<input type="text" name="jumlah_sk" class="form-control"  required>
+			<input type="text" name="jumlah_s_k" class="form-control"  required>
 		</div>
 	</div>
 
@@ -85,7 +85,7 @@ echo form_open(base_url('backend/tambah_satker'), 'class="form-horizontal"');;
 	<div class="form-group">
 		<label class="col-md-12 control-label">9. Jumlah Saudara Tiri<span style="color: red">*</span></label>
 		<div class="col-md-12">
-			<input type="text" name="jumlah_st" class="form-control"  required>
+			<input type="text" name="jumlah_s_t" class="form-control"  required>
 		</div>
 	</div>
 
@@ -93,7 +93,7 @@ echo form_open(base_url('backend/tambah_satker'), 'class="form-horizontal"');;
 	<div class="form-group">
 		<label class="col-md-12 control-label">10. Jumlah Saudara Angkat<span style="color: red">*</span></label>
 		<div class="col-md-12">
-			<input type="text" name="jumlah_sa" class="form-control"  required>
+			<input type="text" name="jumlah_s_a" class="form-control"  required>
 		</div>
 	</div>
 
@@ -102,19 +102,19 @@ echo form_open(base_url('backend/tambah_satker'), 'class="form-horizontal"');;
 	  <div class="form-group">
 	  	<label class="col-md-12 control-label">11. Status<span style="color: red">*</span>
 	    <div class="form-check">
-	      <input class="form-check-input" type="radio" name="status">
+	      <input class="form-check-input" type="radio" value="1" name="status">
 	      <label class="form-check-label">Anak Yatim</label>
 	    </div>
 	    <div class="form-check">
-	      <input class="form-check-input" type="radio" name="status">
+	      <input class="form-check-input" type="radio" value="2" name="status">
 	      <label class="form-check-label">Piatu</label>
 	    </div> 
 	    <div class="form-check">
-	      <input class="form-check-input" type="radio" name="status">
+	      <input class="form-check-input" type="radio" value="3" name="status">
 	      <label class="form-check-label">Yatim Piatu </label>
 	    </div>
 	    <div class="form-check">
-	      <input class="form-check-input" type="radio" name="status">
+	      <input class="form-check-input" type="radio" value="4" name="status">
 	      <label class="form-check-label">Tidak Yatim Piatu </label>
 	    </div>
 	  </div>
