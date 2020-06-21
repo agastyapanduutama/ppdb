@@ -7,6 +7,18 @@ echo form_open(base_url('backend/tambah_satker'), 'class="form-horizontal"');;
 
 <div class="row">
 <div class="col-md-6">
+	<div class="form-group">
+		<label class="col-md-12 control-label">Nomor Induk Sekolah Nasional (NISN)<span style="color: red">*</span></label>
+		<div class="col-md-12">
+			<input type="text" name="nisn" class="form-control"  required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-12 control-label">Nomor Peserta UN SLTP/MTs<span style="color: red">*</span></label>
+		<div class="col-md-12">
+			<input type="text" name="nama_panggilan" class="form-control"  required>
+		</div>
+	</div>
 	A. KETERANGAN PRIBADI
 	<div class="form-group">
 		<label class="col-md-12 control-label">1. Nama Lengkap<span style="color: red">*</span></label>
